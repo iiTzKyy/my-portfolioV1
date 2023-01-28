@@ -17,7 +17,8 @@ useHead({
     {
       hid: "og:description",
       name: "og:description",
-      content: intro,
+      content:
+        " am a front end developer. I use vue as my framework but i also have an experience using laravel as a back end services.",
     },
   ],
 });
