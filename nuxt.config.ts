@@ -9,8 +9,13 @@ export default defineNuxtConfig({
         viewport:'width=device-width, initial-scale=1',      
         title: 'RizkyFs Portfolio',      
         meta: [
-          { name: 'Rizky Febiginta Saputra Portfolio Website', content: 'Portfolio Website' },      
+          { name: 'RizkyFS Portfolio Website', content: 'Portfolio Website' },{ charset: 'utf-8' },
+          { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+          { hid: 'description', name: 'description', content: 'RizkyFs Portfolio Website' }      
         ],
+        link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+        ]
       }
     },
     modules:[

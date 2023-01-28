@@ -8,7 +8,19 @@
 <script setup>
 useHead({
   title: "Rizky Febiginta Saputra Portfolio Website",
-  meta: [{ name: "OIKI is Portfolio website of Rizky", content: "My Project" }],
+  meta: [
+    { name: "OIKI is Portfolio website of Rizky", content: "My Project" },
+    {
+      hid: "og:title",
+      name: "og:title",
+      content: "RizkyFs Portfolio Website",
+    },
+    {
+      hid: "og:Description",
+      name: "og:Description",
+      content: intro,
+    },
+  ],
 });
 </script>
 <style>

@@ -10,13 +10,13 @@ useHead({
   title: "Rizky Fs Portfolio Website",
   meta: [
     {
-      hid: "og:RizkyFS Portfolio",
-      name: "og:Rizky febiginta saputra",
+      hid: "og:title",
+      name: "og:title",
       content: "RizkyFs Portfolio Website",
     },
     {
-      hid: "og:Description",
-      name: "og:Description",
+      hid: "og:description",
+      name: "og:description",
       content: intro,
     },
   ],
@@ -26,7 +26,7 @@ useHead({
 <template>
   <div class="xxl:mx-auto lg:mx-20 mx-4">
     <div class="relative">
-      <nuxt-img
+      <img
         src="/img/profil.jpg"
         class="h-40 absolute lg:block hidden rounded-full right-1/2 translate-x-1/2 top-1/2 -translate-y-1/2"
       />
